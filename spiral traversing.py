@@ -1,6 +1,3 @@
-import turtle
-
-
 a=[]
 count=1
 for i in range(4):
@@ -47,5 +44,6 @@ def spiral(m,n,a):
              for i in range(m-1,k-1,-1):
                  print(a[i][l], end=" ")
         l=l+1
+
 
 
